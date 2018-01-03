@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_22"/>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_32"/>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_38"/>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_50"/>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_80"/>
+		<Row Name="ICON_ZOMBIE_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Zombie_256"/>
+	
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Tank_22"/>
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Tank_32"/>
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Tank_38"/>
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Tank_50"/>
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Tank_80"/>
+		<Row Name="ICON_ZOMBIE_TANK_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Tank_256"/>
+			
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Huter_22"/>
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Huter_32"/>
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Huter_38"/>
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Huter_50"/>
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Huter_80"/>
+		<Row Name="ICON_ZOMBIE_HUNTER_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Huter_256"/>
+	
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_22"/>
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_32"/>
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_38"/>
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_50"/>
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_80"/>
+		<Row Name="ICON_ZOMBIE_SMOKER_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Smoker_256"/>
+	
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Charger_22"/>
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Charger_32"/>
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Charger_38"/>
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Charger_50"/>
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Charger_80"/>
+		<Row Name="ICON_ZOMBIE_CHARGER_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Charger_256"/>
+			
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_22"/>
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_32"/>
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_38"/>
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_50"/>
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_80"/>
+		<Row Name="ICON_ZOMBIE_SPITTER_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Spitter_256"/>
+	
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_22"/>
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_32"/>
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_38"/>
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_50"/>
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_80"/>
+		<Row Name="ICON_ZOMBIE_JOCKEY_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Jockey_256"/>
+	
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="22"  IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_22"/>
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_32"/>
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="38"  IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_38"/>
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_50"/>
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_80"/>
+		<Row Name="ICON_ZOMBIE_BOOMER_UNIT" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Boomber_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_ZOMBIE" Atlas="ICON_ZOMBIE_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_FOW" Atlas="ICON_ZOMBIE_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_TANK" Atlas="ICON_ZOMBIE_TANK_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_TANK_FOW" Atlas="ICON_ZOMBIE_TANK_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_HUNTER" Atlas="ICON_ZOMBIE_HUNTER_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_HUNTER_FOW" Atlas="ICON_ZOMBIE_HUNTER_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_SMOKER" Atlas="ICON_ZOMBIE_SMOKER_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_SMOKER_FOW" Atlas="ICON_ZOMBIE_SMOKER_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_CHARGER" Atlas="ICON_ZOMBIE_CHARGER_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_CHARGER_FOW" Atlas="ICON_ZOMBIE_CHARGER_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_SPITTER" Atlas="ICON_ZOMBIE_SPITTER_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_SPITTER_FOW" Atlas="ICON_ZOMBIE_SPITTER_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_JOCKEY" Atlas="ICON_ZOMBIE_JOCKEY_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_JOCKEY_FOW" Atlas="ICON_ZOMBIE_JOCKEY_UNIT" Index="0"/>
+
+		<Row Name="ICON_UNIT_ZOMBIE_BOOMER" Atlas="ICON_ZOMBIE_BOOMER_UNIT" Index="0"/>
+		<Row Name="ICON_UNIT_ZOMBIE_BOOMER_FOW" Atlas="ICON_ZOMBIE_BOOMER_UNIT" Index="0"/>
+	</IconDefinitions>
+</GameData>

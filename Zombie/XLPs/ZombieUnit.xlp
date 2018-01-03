@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="ZombieUnit"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Zombie_22"/>
+			<m_ObjectName text="Zombie_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Zombie_256"/>
+			<m_ObjectName text="Zombie_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Zombie_32"/>
+			<m_ObjectName text="Zombie_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Zombie_38"/>
+			<m_ObjectName text="Zombie_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Zombie_50"/>
+			<m_ObjectName text="Zombie_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Zombie_80"/>
+			<m_ObjectName text="Zombie_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_22"/>
+			<m_ObjectName text="Boomber_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_256"/>
+			<m_ObjectName text="Boomber_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_32"/>
+			<m_ObjectName text="Boomber_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_38"/>
+			<m_ObjectName text="Boomber_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_50"/>
+			<m_ObjectName text="Boomber_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Boomber_80"/>
+			<m_ObjectName text="Boomber_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_22"/>
+			<m_ObjectName text="Charger_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_256"/>
+			<m_ObjectName text="Charger_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_32"/>
+			<m_ObjectName text="Charger_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_38"/>
+			<m_ObjectName text="Charger_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_50"/>
+			<m_ObjectName text="Charger_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Charger_80"/>
+			<m_ObjectName text="Charger_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_22"/>
+			<m_ObjectName text="Huter_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_256"/>
+			<m_ObjectName text="Huter_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_32"/>
+			<m_ObjectName text="Huter_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_38"/>
+			<m_ObjectName text="Huter_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_50"/>
+			<m_ObjectName text="Huter_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Huter_80"/>
+			<m_ObjectName text="Huter_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_22"/>
+			<m_ObjectName text="Jockey_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_256"/>
+			<m_ObjectName text="Jockey_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_32"/>
+			<m_ObjectName text="Jockey_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_38"/>
+			<m_ObjectName text="Jockey_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_50"/>
+			<m_ObjectName text="Jockey_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Jockey_80"/>
+			<m_ObjectName text="Jockey_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_22"/>
+			<m_ObjectName text="Smoker_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_256"/>
+			<m_ObjectName text="Smoker_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_32"/>
+			<m_ObjectName text="Smoker_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_38"/>
+			<m_ObjectName text="Smoker_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_50"/>
+			<m_ObjectName text="Smoker_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Smoker_80"/>
+			<m_ObjectName text="Smoker_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_22"/>
+			<m_ObjectName text="Spitter_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_256"/>
+			<m_ObjectName text="Spitter_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_32"/>
+			<m_ObjectName text="Spitter_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_38"/>
+			<m_ObjectName text="Spitter_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_50"/>
+			<m_ObjectName text="Spitter_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Spitter_80"/>
+			<m_ObjectName text="Spitter_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_22"/>
+			<m_ObjectName text="Tank_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_256"/>
+			<m_ObjectName text="Tank_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_32"/>
+			<m_ObjectName text="Tank_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_38"/>
+			<m_ObjectName text="Tank_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_50"/>
+			<m_ObjectName text="Tank_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Tank_80"/>
+			<m_ObjectName text="Tank_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

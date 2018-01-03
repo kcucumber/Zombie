@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_BARBARIAN" TraitType="TRAIT_LEADER_KILLER_OF_CYRUS"/>
+	</LeaderTraits>
+	<GlobalParameters>
+		<Replace Name="EXPERIENCE_MAX_BARB_LEVEL" Value="6" />
+	</GlobalParameters>
+	<Civics>
+		<Update>
+			<Where CivicType="CIVIC_CODE_OF_LAWS"/>
+			<Set Cost="10"/>
+		</Update>
+	</Civics>
+</GameData>

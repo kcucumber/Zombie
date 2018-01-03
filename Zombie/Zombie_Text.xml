@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Row Tag="LOC_UNIT_ZOMBIE_NAME" Language="en_US">
+			<Text>ZOMBIE</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_DESCRIPTION" Language="en_US">
+			<Text>
+				Just a Normal Zombie. Do more damage to fortified Unit.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_TANK_NAME" Language="en_US">
+			<Text>TANK</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_TANK_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]The Tank is a gigantic, muscular infected that has the ability to swipe at survivors, knocking them off their feet and incapacitating them; it can also throw rocks and knock cars and other debris into the survivors. The Tank looks like its lower jaw is missing, but it's actually hidden in its neck muscle. The Tank is the most durable of all the special infected, and requires the full support of all of the survivors in order to be killed.
+				[NEWLINE]Strongest Infected. Does not suffer combat penalties when damaged. Can lead other Zombies do tonnes of damage to the city's Walls.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_HUNTER_NAME" Language="en_US">
+			<Text>HUNTER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_HUNTER_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]The Hunter is an agile foe that can jump and pounce on a survivor, and then tear at his victim until he is knocked off, kills his prey or is killed. A hunter emits animal like screeches or light roars when close by, and a snarling growl can be heard when in close proximity.
+				[NEWLINE]Aiti cavalry unit, no extra movement cost for territory type.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_SMOKER_NAME" Language="en_US">
+			<Text>SMOKER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_SMOKER_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]The Smoker is a boil-covered creature with six long tongues that it uses to ensnare and drag a survivor back to himself. It may then either attack the survivor directly, allow the horde to attack him, or leave the survivor suspended over a cliff or roof-edge. The Smoker only releases its victim if a teammate shoves the ensnared survivor, if the tongue is shot, the survivor is killed, or upon the Smoker's death, which results in an explosion that leaves a vision-obscuring cloud.
+				[NEWLINE]Long range unit.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_CHARGER_NAME" Language="en_US">
+			<Text>CHARGER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_CHARGER_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]Charger is a Infected with an enormous right arm, and can charge into the Survivors, capturing and carrying one Survivor away from the others, sending any others in his path flying to the side after a capture and stunning survivors upon hitting an obstacle in a charge. He may then pummel his captured Survivor into the ground, rendering that Survivor helpless until one of their teammates helps them by killing the charger or stunning it with frag rounds.
+				[NEWLINE]Heavy cavalry unit, can pushes back enemies if it does more damage than it takes when attacking. Defenders that cannot be pushed back take additional damage.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_SPITTER_NAME" Language="en_US">
+			<Text>SPITTER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_SPITTER_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]Spitter is a Infected that spits out balls of stomach acid that splatter across an area, quickly eroding the Survivors' health as long as they remain within it. She also leaves a puddle of goo upon death.
+				[NEWLINE]Ranged unit, has a high Combat Strength when defending against ranged attacks. Can attack twice per turn. +2 movement if it start at open broad place.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_JOCKEY_NAME" Language="en_US">
+			<Text>JOCKEY</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_JOCKEY_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]Jockey is a Infected that jumps onto a Survivor's back and steers them into other Infected or environmental hazards, whilst clawing at the player's head until the player is incapacitated, killed, or shoved off.
+				[NEWLINE]Light cavalry unit, fast moving.
+			</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_BOOMER_NAME" Language="en_US">
+			<Text>BOOMER</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_ZOMBIE_BOOMER_DESCRIPTION" Language="en_US">
+			<Text>
+				Special Infected.
+				[NEWLINE]The Boomer is a bloated infected that can spit vision-impairing bile on the Survivors, attracting hordes of infected, and explodes on death, spewing more bile in the immediate area. They emit burping and vomiting like sounds when close by.
+				[NEWLINE]Siege unit, adjacent enemy units receive -5 [ICON_STRENGTH] Combat Strength.
+			</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ZOMBIE_COMBAT_STRENGTH_PER_ERA_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength by entre an new era</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_ZOMBIE_VS_DEFENCE_BONUS_VS_FORTIFIED_DESCRIPTION" Language="en_US">
+			<Text>+10 [ICON_Strength] Combat Strength vs. fortified defender.</Text>
+		</Row>
+	</LocalizedText>
+</GameData>

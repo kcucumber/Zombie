@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 3/22/2017 12:48:14 AM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_UNIT_ZOMBIE_NAME" Language="zh_Hans_CN">
+			<Text>ZOMBIE</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				普通的丧尸。对睿智的玩家来说毫无威胁的存在。对驻守单位有着更高的伤害。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_TANK_NAME" Language="zh_Hans_CN">
+			<Text>TANK</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_TANK_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，体型极为巨大，特征为粗壮的手臂和低沉的吼叫声，攻击力和生命值极高。
+				[NEWLINE]除了挥拳攻击之外，坦克也会挖开地面制造出水泥、瓦砾块进行扔掷攻击。被坦克打中时，除了受到强烈的伤害之外，其惊人的攻击力道同时也可以轻而易举的将幸存者击飞。坦克也可以用强劲的攻击力道把地图上的物件击飞出去来攻击幸存者（如汽车、树干、水泥支柱等），也能把感染者和幸存者无法摧毁的物件摧毁（如混凝土墙、地下铁列车车门等）。
+				[NEWLINE]重骑兵单位，拥有强大的战斗力和行动力，并且不会随着HP的减少而衰弱，可以轻易的摧毁坚固的城墙。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_HUNTER_NAME" Language="zh_Hans_CN">
+			<Text>HUNTER</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_HUNTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，特征是兜帽衣服。是所有特殊感染者中速度最快、机动性最强的感染者。
+				[NEWLINE]猎人在爬行状态下会发出独特且令人毛骨悚然的叫声，并且可作出远距离飞扑，也可以在墙壁和天花板进行三角跳。
+				[NEWLINE]反骑兵单位，可以无视地形移动。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_SMOKER_NAME" Language="zh_Hans_CN">
+			<Text>SMOKER</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_SMOKER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，身上带有绿色的胞子丛（绿色烟雾），会不断咳嗽，身型略高，脸部半边有着肿瘤。
+				[NEWLINE]烟雾者会伸出舌头捆绑幸存者并且加以拖行。当幸存者遭到烟雾者拖行至身旁时，烟雾者还会以双拳对受捆绑的幸存者加以攻击。另外若受捆绑的幸存者在遭烟雾者拖行途中若卡住其他东西，受捆绑的幸存者也会因为烟雾者舌头的勒行而受到伤害。
+				[NEWLINE]围绕的烟雾会隐藏烟雾者的行踪，3格攻击范围的长射程单位。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_CHARGER_NAME" Language="zh_Hans_CN">
+			<Text>CHARGER</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_CHARGER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，特征是吊带工作服，身型巨大，右手巨大无比，左手细小以及低沉的吼叫声。
+				[NEWLINE]会直冲向幸存者，并把幸存者抓起，然后抓着幸存者一直向前冲，直到撞到墙壁等障碍，就会不断把幸存者撞击地面。抓着幸存者直冲时若果被其他幸存者阻挡，会撞开直线行径上的其他幸存者。
+				[NEWLINE]重骑兵单位，伤害点数高于敌方的状况下，会将防守的敌方单位推至后方的单元格。若选择的格子无法进入，则额外受到等同该次战斗承受伤害50%的伤害。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_SPITTER_NAME" Language="zh_Hans_CN">
+			<Text>SPITTER</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_SPITTER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，特征是女性样子，口部能够张开得很大，口中不断流出绿色液体，发出较尖锐的叫声。
+				[NEWLINE]能把绿色的腐蚀性液体喷射到远处，当幸存者碰到液体时，幸存者会持续受伤，直到离开液体范围。
+				[NEWLINE]2射程的远程单位，能攻击两次，在平原开始回合+2移动。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_JOCKEY_NAME" Language="zh_Hans_CN">
+			<Text>JOCKEY</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_JOCKEY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，特征是驼背，会发出奇怪的笑声。
+				[NEWLINE]会跳上幸存者的背上，骑着幸存者，被骑着的幸存者会不能受控的乱走。
+				[NEWLINE]行动快速的轻骑兵单位，在平原上一眨眼就会消失不见。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_BOOMER_NAME" Language="zh_Hans_CN">
+			<Text>BOOMER</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_ZOMBIE_BOOMER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				特殊感染者的一种，特征是肥胖的身躯、身上有脓包，以及咕哝的叫声。
+				[NEWLINE]呕吐者的移动速度较慢，只有极低的生命值。但是呕吐者可以往幸存者身上呕吐，当幸存者被吐到时视线会受到极大阻碍，还会传染到其他未被吐到的感染者。呕吐物的独特气味还会立即引来一大群丧尸，丧尸会把身上沾到呕吐物的幸存者当做最优先的攻击目标。
+				[NEWLINE]1射程的攻城单位，能使相邻的敌方单位战斗力-5。
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZOMBIE_COMBAT_STRENGTH_PER_ERA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>进入新时代的 +10 [ICON_Strength] 战斗力
+			</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_ZOMBIE_VS_DEFENCE_BONUS_VS_FORTIFIED_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>
+				攻击驻守单位时 +10 [ICON_Strength] 战斗力
+			</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>L4D Zombie MOD</Name>
+    <Guid>7f08e350-aac2-4242-8ffc-919a704ecc99</Guid>
+    <ProjectGuid>c46972d6-49e5-44fe-8cb2-d60eb4c79925</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>
+    </Teaser>
+    <Description>Zombie Unit added into the game with special generate rule.
+please enjoy it</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>Zombie_Units.xml</File><File>Zombie_Trait.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>Zombie_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Zombie_Text.xml</File><File>Zombie_Text_CN.xml</File></UpdateText><AddGameplayScripts id="Script"><File>Script/Special_Zombie.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <AssemblyName>Zombie</AssemblyName>
+    <RootNamespace>Zombie</RootNamespace>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="DLC: Poland Civilization Pack" id="3809975F-263F-40A2-A747-8BFB171D821A" />
+</Associations>]]></AssociationData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateIcons id="Icon"><File>Zombie_Icons.xml</File></UpdateIcons><UpdateDatabase id="MODArt"><File>(Mod Art Dependency File)</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <Authors>KCucumber</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Script\Special_Zombie.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\ZombieUnit.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Icons.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Text_CN.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Trait.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="ArtDefs\" />
+    <ArtDef Include="ArtDefs\Units.artdef" />
+    <Folder Include="Script\" />
+    <Folder Include="XLPs\" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
