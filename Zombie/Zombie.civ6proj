@@ -14,7 +14,7 @@ please enjoy it</Description>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>Zombie_Units.xml</File><File>Zombie_Trait.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>Zombie_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Zombie_Text.xml</File><File>Zombie_Text_CN.xml</File></UpdateText><AddGameplayScripts id="Script"><File>Script/Special_Zombie.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="Gameplay"><File>Zombie_Units.xml</File><File>Zombie_Trait.xml</File><File>Zombie_Barbarian.xml</File></UpdateDatabase><UpdateIcons id="Icons"><File>Zombie_Icons.xml</File></UpdateIcons><UpdateText id="Text"><File>Zombie_Text.xml</File><File>Zombie_Text_CN.xml</File></UpdateText><AddGameplayScripts id="Script"><File>Script/Zombie_Special.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
     <AssemblyName>Zombie</AssemblyName>
     <RootNamespace>Zombie</RootNamespace>
     <AssociationData><![CDATA[<Associations>
@@ -27,10 +27,13 @@ please enjoy it</Description>
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Script\Special_Zombie.lua">
+    <Content Include="Script\Zombie_Special.lua">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\ZombieUnit.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Zombie_Barbarian.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Zombie_Icons.xml">

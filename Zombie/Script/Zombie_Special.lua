@@ -22,7 +22,10 @@ function Special_Zombie_By_Kill(dplayerID:number, dunitID:number, aplayerID:numb
 				pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE"].Index, unitX, unitY);
 			else 
 				if (UnitNID > 30) then
-					pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE_TANK"].Index, unitX, unitY);
+					local currentTurn = Game.GetCurrentGameTurn();
+					if currentTurn > 40 then
+						pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE_TANK"].Index, unitX, unitY);
+					end
 				else 
 					if (UnitNID > 25) then
 						pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE"].Index, unitX, unitY); 
@@ -71,7 +74,6 @@ function Barbarian_Zombie_By_Camp(unitX :number, unitY :number, eOwner :number)
 		local pPlayer = Players[63]; 
 		pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE"].Index, locX, locY); 
 		Special_Zombie_Pick(locX, locY);
-		Special_Zombie_Pick(locX, locY);
 	end
 
 end
@@ -103,7 +105,10 @@ function Special_Zombie_Pick(locX :number, locY :number)
 		pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE"].Index, locX, locY); 
 	else
 		if (UnitNID > 30) then
-			pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE_TANK"].Index, locX, locY);
+			local currentTurn = Game.GetCurrentGameTurn();
+			if currentTurn > 40 then
+				pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE_TANK"].Index, locX, locY);
+			end
 		else 
 			if (UnitNID > 25) then
 				pPlayer:GetUnits():Create(GameInfo.Units["UNIT_ZOMBIE"].Index, locX, locY); 

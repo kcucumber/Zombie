@@ -17,6 +17,7 @@
 				Special Infected.
 				[NEWLINE]The Tank is a gigantic, muscular infected that has the ability to swipe at survivors, knocking them off their feet and incapacitating them; it can also throw rocks and knock cars and other debris into the survivors. The Tank looks like its lower jaw is missing, but it's actually hidden in its neck muscle. The Tank is the most durable of all the special infected, and requires the full support of all of the survivors in order to be killed.
 				[NEWLINE]Strongest Infected. Does not suffer combat penalties when damaged. Can lead other Zombies do tonnes of damage to the city's Walls.
+				[NEWLINE]Every existing in the world will reduce Civic 3% [ICON_SCIENCE] Science and [ICON_CULTURE] Culture.
 			</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_ZOMBIE_HUNTER_NAME" Language="en_US">

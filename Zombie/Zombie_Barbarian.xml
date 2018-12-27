@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Zombie_Barbarian -->
+<!-- Author: Administrator -->
+<!-- DateCreated: 4/4/2018 5:54:53 PM -->
+<GameData>
+	<BarbarianTribes>
+		<Row TribeType="TRIBE_ZOMBIES_TANK" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_TANK" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_HUNTER" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_HUNTER" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_SMOKER" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_SMOKER" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_CHARGER" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_CHARGER" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_SPITTER" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_SPITTER" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_JOCKEY" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_JOCKEY" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Row TribeType="TRIBE_ZOMBIES_BOOMER" PercentRangedUnits="25" TurnsToWarriorSpawn="25" ScoutTag="CLASS_RECON" MeleeTag="CLASS_ZOMBIE_NORMAL" RangedTag="CLASS_ZOMBIE_BOOMER" SiegeTag="CLASS_SIEGE" DefenderTag="CLASS_ANTI_CAVALRY" ScoutingBehaviorTree="Barbarian Found City" RaidingBehaviorTree="Barbarian Attack" RaidingBoldness="25" CityAttackOperation="Barbarian City Assault" CityAttackBoldness="75"/>
+		<Update>
+			<Where TribeType="TRIBE_MELEE"/>
+			<Set>
+				<MeleeTag>CLASS_ZOMBIE_NORMAL</MeleeTag>
+				<RangedTag>CLASS_ZOMBIE_SPECIAL</RangedTag>
+				<SiegeTag>CLASS_ZOMBIE_TANK</SiegeTag>
+			</Set>
+		</Update>
+	</BarbarianTribes>
+	<BarbarianTribeNames>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_TANK_1" TribeType="TRIBE_ZOMBIES_TANK" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_TANK_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_TANK_2" TribeType="TRIBE_ZOMBIES_TANK" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_TANK_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_TANK_3" TribeType="TRIBE_ZOMBIES_TANK" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_TANK_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_TANK_4" TribeType="TRIBE_ZOMBIES_TANK" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_TANK_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_TANK_5" TribeType="TRIBE_ZOMBIES_TANK" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_TANK_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_HUNTER_1" TribeType="TRIBE_ZOMBIES_HUNTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_HUNTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_HUNTER_2" TribeType="TRIBE_ZOMBIES_HUNTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_HUNTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_HUNTER_3" TribeType="TRIBE_ZOMBIES_HUNTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_HUNTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_HUNTER_4" TribeType="TRIBE_ZOMBIES_HUNTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_HUNTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_HUNTER_5" TribeType="TRIBE_ZOMBIES_HUNTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_HUNTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SMOKER_1" TribeType="TRIBE_ZOMBIES_SMOKER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SMOKER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SMOKER_2" TribeType="TRIBE_ZOMBIES_SMOKER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SMOKER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SMOKER_3" TribeType="TRIBE_ZOMBIES_SMOKER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SMOKER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SMOKER_4" TribeType="TRIBE_ZOMBIES_SMOKER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SMOKER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SMOKER_5" TribeType="TRIBE_ZOMBIES_SMOKER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SMOKER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_CHARGER_1" TribeType="TRIBE_ZOMBIES_CHARGER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_CHARGER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_CHARGER_2" TribeType="TRIBE_ZOMBIES_CHARGER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_CHARGER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_CHARGER_3" TribeType="TRIBE_ZOMBIES_CHARGER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_CHARGER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_CHARGER_4" TribeType="TRIBE_ZOMBIES_CHARGER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_CHARGER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_CHARGER_5" TribeType="TRIBE_ZOMBIES_CHARGER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_CHARGER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SPITTER_1" TribeType="TRIBE_ZOMBIES_SPITTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SPITTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SPITTER_2" TribeType="TRIBE_ZOMBIES_SPITTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SPITTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SPITTER_3" TribeType="TRIBE_ZOMBIES_SPITTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SPITTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SPITTER_4" TribeType="TRIBE_ZOMBIES_SPITTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SPITTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_SPITTER_5" TribeType="TRIBE_ZOMBIES_SPITTER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_SPITTER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_JOCKEY_1" TribeType="TRIBE_ZOMBIES_JOCKEY" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_JOCKEY_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_JOCKEY_2" TribeType="TRIBE_ZOMBIES_JOCKEY" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_JOCKEY_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_JOCKEY_3" TribeType="TRIBE_ZOMBIES_JOCKEY" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_JOCKEY_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_JOCKEY_4" TribeType="TRIBE_ZOMBIES_JOCKEY" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_JOCKEY_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_JOCKEY_5" TribeType="TRIBE_ZOMBIES_JOCKEY" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_JOCKEY_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_BOOMER_1" TribeType="TRIBE_ZOMBIES_BOOMER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_BOOMER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_BOOMER_2" TribeType="TRIBE_ZOMBIES_BOOMER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_BOOMER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_BOOMER_3" TribeType="TRIBE_ZOMBIES_BOOMER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_BOOMER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_BOOMER_4" TribeType="TRIBE_ZOMBIES_BOOMER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_BOOMER_1"/>
+		<Row TribeNameType="BARBARIAN_ZOMBIES_BOOMER_5" TribeType="TRIBE_ZOMBIES_BOOMER" TribeDisplayName="LOC_BARBARIAN_ZOMBIES_BOOMER_1"/>
+	</BarbarianTribeNames>
+	<BarbarianAttackForces>
+		<Row AttackForceType="ZombieTankRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_TANK" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieHunterRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_HUNTER" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieSmokerRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_SMOKER" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieChargerRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_CHARGER" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieSpitterRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_SPITTER" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieJockeyRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_JOCKEY" NumRangeUnits="1" RaidingForce="true"/>
+		<Row AttackForceType="ZombieBoomerRaid" MinTargetDifficulty="DIFFICULTY_SETTLER" SpawnRate="2" MeleeTag="CLASS_ZOMBIE_NORMAL" NumMeleeUnits="2" RangeTag="CLASS_ZOMBIE_BOOMER" NumRangeUnits="1" RaidingForce="true"/>
+	</BarbarianAttackForces>
+	<BarbarianTribeForces>
+		<Row AttackForceType="ZombieTankRaid" TribeType="TRIBE_ZOMBIES_TANK"/>
+		<Row AttackForceType="ZombieHunterRaid" TribeType="TRIBE_ZOMBIES_HUNTER"/>
+		<Row AttackForceType="ZombieSmokerRaid" TribeType="TRIBE_ZOMBIES_SMOKER"/>
+		<Row AttackForceType="ZombieChargerRaid" TribeType="TRIBE_ZOMBIES_CHARGER"/>
+		<Row AttackForceType="ZombieSpitterRaid" TribeType="TRIBE_ZOMBIES_SPITTER"/>
+		<Row AttackForceType="ZombieJockeyRaid" TribeType="TRIBE_ZOMBIES_JOCKEY"/>
+		<Row AttackForceType="ZombieBoomerRaid" TribeType="TRIBE_ZOMBIES_BOOMER"/>
+	</BarbarianTribeForces>
+</GameData>

@@ -3,9 +3,9 @@ XLP cook starting...
 C:\Users\Administrator\Documents\Firaxis ModBuddy\Civilization VI\Zombie\Zombie\XLPs\ZombieUnit.xlp
 Opened output file: C:\Users\Administrator\Documents\My Games\Sid Meier's Civilization VI\Mods\Zombie\Platforms\MacOS\BLPs/ZombieUnit.blp    For XLP: 'C:\Users\Administrator\Documents\Firaxis ModBuddy\Civilization VI\Zombie\Zombie\XLPs\ZombieUnit.xlp'
 Starting 'ZombieUnit'
-Load finished for: 'ZombieUnit' in 0.011 seconds
-Cook finished for: 'ZombieUnit' in 0.047 seconds
-Disk write finished for: 'ZombieUnit' in 0.004 seconds
+Load finished for: 'ZombieUnit' in 0.046 seconds
+Cook finished for: 'ZombieUnit' in 0.056 seconds
+Disk write finished for: 'ZombieUnit' in 0.005 seconds
 Cleanup finished for: 'ZombieUnit' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.238 seconds
+Cook completed in 0.393 seconds
